@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Ma tranche d'âge</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <h1>MA PAGE TEST</h1>
+        <h1>Ma tranche d'âge</h1>
+        <label for="age">Quel est votre âge ?</label>
+        <p>P.S. : Votre age doit etre entre 18 et 80 ans maximum !</p>
+        <input id="age" type="text" onchange="checkAge()">
+        <p id="messageInfo"></p>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
